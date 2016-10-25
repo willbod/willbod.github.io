@@ -22,8 +22,21 @@ $gray: #BDBDBD;
 
 .main {
   background-color: $gray-light;
+  color: #545454;
 }
 
 .red {
   background-color: red;
+}
+
+.mainheader {
+  color: #545454;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 0 16px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
