@@ -25,13 +25,22 @@ $gray: #BDBDBD;
   color: #545454;
 }
 
+.imagecarousel {
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 700px;
+  max-height: 550px;
+}
+
 .red {
   background-color: red;
 }
 
 .mainheader {
   color: #545454;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Ailerons;
+  // font-family: 'Open Sans', sans-serif;
   font-size: 34px;
   font-weight: 300;
   line-height: 40px;
@@ -39,4 +48,29 @@ $gray: #BDBDBD;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.delay-1 {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.fade-in {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
