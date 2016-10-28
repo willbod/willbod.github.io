@@ -39,7 +39,7 @@ $gray: #BDBDBD;
 
 .mainheader {
   color: #545454;
-  font-family: Ailerons;
+  font-family: 'Quattrocento Sans', sans-serif;
   // font-family: 'Open Sans', sans-serif;
   font-size: 34px;
   font-weight: 300;
@@ -69,10 +69,8 @@ $gray: #BDBDBD;
     animation-duration: 2s;
 }
 
-#navlist li {
-  display: inline;
-  list-style-type: none;
-  padding-right: 20px;
+.navbarcolour {
+    color: white !important;
 }
 
 .sketches {
