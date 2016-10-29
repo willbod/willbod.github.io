@@ -73,10 +73,23 @@ $gray: #BDBDBD;
 
 .navbarcolour {
     color: white !important;
+    z-index: 999;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .sketches {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   align-items: baseline;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
