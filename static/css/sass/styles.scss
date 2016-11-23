@@ -22,8 +22,7 @@ $gray: #BDBDBD;
 @import 'social-media';
 
 .main {
-  background-color: $gray-light;
-  color: #545454;
+  background-color: $gray-lighter;
 }
 
 .imagecarousel {
@@ -49,8 +48,10 @@ $gray: #BDBDBD;
   line-height: 40px;
   margin: 0 0 16px;
   text-align: center;
+  align-items: center;
   padding-top: 40px;
   padding-bottom: 20px;
+  background-color: $gray-lighter !important;
 }
 
 .delay-1 {
@@ -73,12 +74,15 @@ $gray: #BDBDBD;
 }
 
 .navbarcolour {
-    color: white !important;
+    color: $gray-dark !important;
+    background-color: $gray-lighter !important;
     z-index: 999;
     text-align: center;
+    align-items: center;
     font-family: 'Quattrocento Sans', sans-serif;
     padding-top: 40px;
     padding-bottom: 20px;
+    margin: auto;
 }
 
 .sketches {
@@ -91,6 +95,7 @@ $gray: #BDBDBD;
   display: inline-block;
   float: none;
   vertical-align: top;
+  text-align: center;
 }
 
 .navbar .navbar-collapse {
@@ -123,7 +128,7 @@ $gray: #BDBDBD;
 }
 
 body {
-  background: #ddd;
+  background: white;
 }
 
 .wrapper {

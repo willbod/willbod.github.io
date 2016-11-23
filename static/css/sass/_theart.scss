@@ -1,14 +1,60 @@
 #modal-theart {
-  .theart{
-    color: white;
-    background-color: white;
-    font-family: 'Quattrocento Sans', sans-serif !important;
-    font-size: 18px;
-    z-index: 1000;
-  }
+    .theart {
+        color: white;
+        background-color: white;
+        font-family: 'Quattrocento Sans', sans-serif !important;
+        font-size: 18px;
+        z-index: 1000;
+    }
 
-  .theart hover {
-    color: navy blue;
-  }
+    .theart hover {
+        color: navy blue;
+    }
 
+    .image-container {
+        position: relative;
+
+    }
+
+    .image-container .after {
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+        display: none;
+        color: #FFF;
+        z-index: 999;
+    }
+
+    .image-container:hover .after {
+        display: block;
+        background: rgba(0, 0, 0, .6);
+        z-index: 998;
+    }
+
+    .image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    }
+
+    .image img {
+    width: 100%;
+    vertical-align: top;
+    }
+
+    .image:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    }
+
+    .image:hover:after {
+    opacity: 1;
+    }
 }
