@@ -57,4 +57,24 @@
     .image:hover:after {
     opacity: 1;
     }
+
+    .thumbnail{
+        width:300px;
+        position:relative;
+    }
+
+    .thumbnail img{
+        max-width:100%;
+    }
+
+    .thumbnail h1{
+        position:absolute;
+        top:50%;
+        left:0;
+        color:lightgrey;
+        width:100%;
+        text-align:center;
+        transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+        margin:0;
+    }
 }
