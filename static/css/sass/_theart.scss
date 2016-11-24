@@ -11,70 +11,175 @@
         color: navy blue;
     }
 
-    .image-container {
-        position: relative;
-
+    .effects {
+      padding-left: 15px;
+    }
+    .effects .img {
+      position: relative;
+      float: left;
+      margin-bottom: 5px;
+      width: 25%;
+      overflow: hidden;
+    }
+    .effects .img:nth-child(n) {
+      margin-right: 5px;
+    }
+    .effects .img:first-child {
+      margin-left: -15px;
+    }
+    .effects .img:last-child {
+      margin-right: 0;
+    }
+    .effects .img img {
+      display: block;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      height: auto;
     }
 
-    .image-container .after {
-        position: absolute;
-
-        width: 100%;
-        height: 100%;
-        display: none;
-        color: #FFF;
-        z-index: 999;
+    .overlay {
+      display: block;
+      position: absolute;
+      z-index: 20;
+      background: rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
     }
 
-    .image-container:hover .after {
-        display: block;
-        background: rgba(0, 0, 0, .6);
-        z-index: 998;
+    a.close-overlay {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 45px;
+      text-align: center;
+      background-color: #000;
+      cursor: pointer;
+    }
+    a.close-overlay.hidden {
+      display: none;
     }
 
-    .image {
-    position: relative;
-    width: 400px;
-    height: 400px;
+    a.expand {
+      display: block;
+      position: absolute;
+      z-index: 100;
+      width: 60px;
+      height: 60px;
+      border: solid 5px #fff;
+      text-align: center;
+      color: #fff;
+      line-height: 50px;
+      font-weight: 700;
+      font-size: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+      border-radius: 30px;
     }
 
-    .image img {
-    width: 100%;
-    vertical-align: top;
+    #effect-6 .overlay {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+    }
+    #effect-6 .overlay a.expand {
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: 0 auto;
+      opacity: 0;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    #effect-6 .img.hover .overlay {
+      opacity: 1;
+    }
+    #effect-6 .img.hover .overlay a.expand {
+      top: 50%;
+      margin-top: -30px;
+      opacity: 1;
     }
 
-    .image:after {
-    content: '\A';
-    position: absolute;
-    width: 100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity: 0;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    }
-
-    .image:hover:after {
-    opacity: 1;
-    }
-
-    .thumbnail{
-        width:300px;
-        position:relative;
-    }
-
-    .thumbnail img{
-        max-width:100%;
-    }
-
-    .thumbnail h1{
-        position:absolute;
-        top:50%;
-        left:0;
-        color:lightgrey;
-        width:100%;
-        text-align:center;
-        transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
-        margin:0;
-    }
+    // .image-container {
+    //     position: relative;
+    //
+    // }
+    //
+    // .image-container .after {
+    //     position: absolute;
+    //
+    //     width: 100%;
+    //     height: 100%;
+    //     display: none;
+    //     color: #FFF;
+    //     z-index: 999;
+    // }
+    //
+    // .image-container:hover .after {
+    //     display: block;
+    //     background: rgba(0, 0, 0, .6);
+    //     z-index: 998;
+    // }
+    //
+    // .image {
+    // position: relative;
+    // width: 400px;
+    // height: 400px;
+    // }
+    //
+    // .image img {
+    // width: 100%;
+    // vertical-align: top;
+    // }
+    //
+    // .image:after {
+    // content: '\A';
+    // position: absolute;
+    // width: 100%; height:100%;
+    // top:0; left:0;
+    // background:rgba(0,0,0,0.6);
+    // opacity: 0;
+    // transition: all 1s;
+    // -webkit-transition: all 1s;
+    // }
+    //
+    // .image:hover:after {
+    // opacity: 1;
+    // }
+    //
+    // .thumbnail{
+    //     width:300px;
+    //     position:relative;
+    // }
+    //
+    // .thumbnail img{
+    //     max-width:100%;
+    // }
+    //
+    // .thumbnail h1{
+    //     position:absolute;
+    //     top:50%;
+    //     left:0;
+    //     color:lightgrey;
+    //     width:100%;
+    //     text-align:center;
+    //     transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+    //     margin:0;
+    // }
 }
