@@ -1,8 +1,6 @@
 /*
 Tanveer Art Main Stylesheet
 */
-
-
 //Gray colours
 $gray-base: #212121;
 $gray-darker: #212121;
@@ -10,8 +8,6 @@ $gray-dark: #424242;
 $gray-light: #BDBDBD;
 $gray-lighter: #FAFAFA;
 $gray: #BDBDBD;
-
-
 //Import components
 @import 'contact';
 @import 'theart';
@@ -23,36 +19,35 @@ $gray: #BDBDBD;
 @import 'theartist';
 
 .main {
-  background-color: $gray-darker;
+    background-color: $gray-darker;
 }
 
 .imagecarousel {
-  align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: 500px;
-  max-height: 550px;
-
-  z-index: 999;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 500px;
+    max-height: 550px;
+    z-index: 999;
 }
 
 .red {
-  background-color: red;
+    background-color: red;
 }
 
 .mainheader {
-  color: $gray-lighter;
-  font-family: 'Quattrocento Sans', sans-serif;
-  // font-family: 'Open Sans', sans-serif;
-  font-size: 34px;
-  font-weight: 300;
-  line-height: 40px;
-  margin: 0 0 16px;
-  text-align: center;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  background-color: $gray-darker !important;
+    color: $gray-lighter;
+    font-family: 'Quattrocento Sans', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: $gray-darker !important;
 }
 
 .delay-1 {
@@ -87,39 +82,34 @@ $gray: #BDBDBD;
 }
 
 .sketches {
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
-  align-items: baseline;
+    margin: 5px;
+    padding: 5px;
+    align-items: baseline;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  text-align: center;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
 }
-
-
 
 .navbar-nav {
     text-align: center;
     float: none;
+
     li {
         display: inline-block;
         float: none;
+
         ul {
             cursor: pointer !important;
         }
     }
 }
 
-
-
-
-
-
 .navbar .navbar-collapse {
-  text-align: center;
+    text-align: center;
 }
 
 .overlay:hover {
@@ -136,45 +126,38 @@ $gray: #BDBDBD;
 .overlaysmall {
     margin-top: -128%;
 }
-
-
-
-@import url('http://weloveiconfonts.com/api/?family=entypo');
+@import url( 'http://weloveiconfonts.com/api/?family=entypo');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background: $gray-darker;
+    background: $gray-darker;
 }
 
-
-
 .wrapper {
-  padding: 120px 0 0;
-  text-align: center;
+    padding: 120px 0 0;
+    text-align: center;
 }
 
 .social {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 0 10px;
-  line-height: 50px;
-  font-family: Entypo;
-  font-size: 28px;
-  text-align: center;
-  color: $gray-darker;
-  border-radius: 10px;
-  background: $gray-lighter;
-  overflow: hidden;
-  cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    line-height: 50px;
+    font-family: Entypo;
+    font-size: 28px;
+    text-align: center;
+    color: $gray-darker;
+    border-radius: 10px;
+    background: $gray-lighter;
+    overflow: hidden;
+    cursor: pointer;
 }
-
-
 
 .artist {
     color: $gray-lighter !important;
@@ -182,7 +165,7 @@ body {
     font-family: 'Quattrocento Sans', sans-serif !important;
     font-size: 16px !important;
     line-height: 26px;
-    text-align: justify;;
+    text-align: justify;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
@@ -195,15 +178,14 @@ body {
     padding-bottom: 100px;
 }
 
-
 .contact {
-color: $gray-lighter;
-background-color: $gray-darker;
-font-family: 'Quattrocento Sans', sans-serif;
-font-size: 18px;
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: center;
+    color: $gray-lighter;
+    background-color: $gray-darker;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .sociallist {
@@ -211,6 +193,7 @@ text-align: center;
         display: inline;
         align-items: center;
     }
+
     ul {
         align-items: center;
     }
