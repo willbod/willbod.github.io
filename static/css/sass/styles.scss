@@ -20,9 +20,10 @@ $gray: #BDBDBD;
 @import 'material-kit';
 @import 'page-redirect';
 @import 'social-media';
+@import 'theartist';
 
 .main {
-  background-color: $gray-lighter;
+  background-color: $gray-darker;
 }
 
 .imagecarousel {
@@ -40,7 +41,7 @@ $gray: #BDBDBD;
 }
 
 .mainheader {
-  color: #545454;
+  color: $gray-lighter;
   font-family: 'Quattrocento Sans', sans-serif;
   // font-family: 'Open Sans', sans-serif;
   font-size: 34px;
@@ -51,7 +52,7 @@ $gray: #BDBDBD;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 20px;
-  background-color: $gray-lighter !important;
+  background-color: $gray-darker !important;
 }
 
 .delay-1 {
@@ -74,8 +75,8 @@ $gray: #BDBDBD;
 }
 
 .navbarcolour {
-    color: $gray-dark !important;
-    background-color: $gray-lighter !important;
+    color: $gray-lighter !important;
+    background-color: $gray-darker !important;
     z-index: 999;
     text-align: center;
     align-items: center;
@@ -147,8 +148,10 @@ $gray: #BDBDBD;
 }
 
 body {
-  background: white;
+  background: $gray-darker;
 }
+
+
 
 .wrapper {
   padding: 120px 0 0;
@@ -222,4 +225,34 @@ body {
     rgb(236, 236, 236) 18px 18px,
     rgb(237, 237, 237) 19px 19px,
     rgb(238, 238, 238) 20px 20px;
+}
+
+.artist {
+    color: $gray-lighter !important;
+    background-color: $gray-darker;
+    font-family: 'Quattrocento Sans', sans-serif !important;
+    font-size: 16px !important;
+    line-height: 26px;
+    text-align: justify;;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    display: block;
+}
+
+.pads {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contact {
+color: $gray-lighter;
+background-color: $gray-darker;
+font-family: 'Quattrocento Sans', sans-serif;
+font-size: 18px;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
 }
