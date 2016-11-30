@@ -9,6 +9,7 @@ $gray-light: #BDBDBD;
 $gray-lighter: #FAFAFA;
 $gray: #BDBDBD;
 //Import components
+// @import 'blog';
 @import 'contact';
 @import 'theart';
 @import 'watermark';
@@ -159,19 +160,19 @@ body {
     cursor: pointer;
 }
 
-.artist {
-    color: $gray-lighter !important;
-    background-color: $gray-darker;
-    font-family: 'Quattrocento Sans', sans-serif !important;
-    font-size: 16px !important;
-    line-height: 26px;
-    text-align: justify;
-    text-rendering: optimizeLegibility;
-    letter-spacing: 0.01em;
-    -webkit-font-smoothing: antialiased;
-    position: relative;
-    display: block;
-}
+// .artist {
+//     color: $gray-lighter !important;
+//     background-color: $gray-darker;
+//     font-family: 'Quattrocento Sans', sans-serif !important;
+//     font-size: 16px !important;
+//     line-height: 26px;
+//     text-align: justify;
+//     text-rendering: optimizeLegibility;
+//     letter-spacing: 0.01em;
+//     -webkit-font-smoothing: antialiased;
+//     position: relative;
+//     display: block;
+// }
 
 .pads {
     padding-top: 100px;
@@ -198,4 +199,16 @@ body {
         align-items: center;
     }
     align-items: center;
+}
+
+.pillbar {
+    color: $gray-lighter;
+    background-color: $gray-darker;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    position: fixed;
+    width: 100%;
 }
