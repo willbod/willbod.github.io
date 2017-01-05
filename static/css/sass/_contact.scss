@@ -1,12 +1,11 @@
-
 .contact {
-color: grey;
-background-color: white;
-font-family: 'Quattrocento Sans', sans-serif;
-font-size: 18px;
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: center;
+    color: $gray-lighter;
+    background-color: $gray-darker;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .contact hover {

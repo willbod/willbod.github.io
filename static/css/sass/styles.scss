@@ -29,7 +29,7 @@ $gray: #BDBDBD;
     margin-right: 50px;
     max-width: 500px;
     max-height: 550px;
-    z-index: 999;
+    z-index: 997;
 }
 
 .red {
@@ -71,9 +71,8 @@ $gray: #BDBDBD;
 }
 
 .navbarcolour {
-    color: $gray-lighter !important;
-    background-color: $gray-darker !important;
-    z-index: 999;
+    color: $gray-lighter;
+    background-color: $gray-darker;
     text-align: center;
     align-items: center;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -144,22 +143,6 @@ body {
     text-align: center;
 }
 
-.social {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    line-height: 50px;
-    font-family: Entypo;
-    font-size: 28px;
-    text-align: center;
-    color: $gray-darker;
-    border-radius: 10px;
-    background: $gray-lighter;
-    overflow: hidden;
-    cursor: pointer;
-}
-
 // .artist {
 //     color: $gray-lighter !important;
 //     background-color: $gray-darker;
@@ -179,27 +162,10 @@ body {
     padding-bottom: 100px;
 }
 
-.contact {
-    color: $gray-lighter;
-    background-color: $gray-darker;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 18px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
+.paddown {
+    padding-bottom: 100px;
 }
 
-.sociallist {
-    li {
-        display: inline;
-        align-items: center;
-    }
-
-    ul {
-        align-items: center;
-    }
-    align-items: center;
-}
 
 .pillbar {
     color: $gray-lighter;
@@ -211,4 +177,9 @@ body {
     font-size: 32px;
     position: fixed;
     width: 100%;
+}
+
+#mainnav {
+    background-color: $gray-darker;
+    z-index: 1000;
 }
