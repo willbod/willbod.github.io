@@ -10,4 +10,14 @@
     -webkit-font-smoothing: antialiased;
     position: relative;
     display: block;
+    width:auto;
+}
+p.artist {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.artistimg {
+    text-align: center;
+    width:100%;
 }

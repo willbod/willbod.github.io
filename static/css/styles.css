@@ -13070,6 +13070,19 @@ li {
   -webkit-font-smoothing: antialiased;
   position: relative;
   display: block;
+  width: auto;
+}
+
+/* line 15, sass/_theartist.scss */
+p.artist {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* line 20, sass/_theartist.scss */
+.artistimg {
+  text-align: center;
+  width: 100%;
 }
 
 /* line 22, sass/styles.scss */
