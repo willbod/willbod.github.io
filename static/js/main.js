@@ -12,3 +12,13 @@ $(function() {
     }
   });
 });
+
+$('img').hover(
+    function(e) {    // in
+        $(img).not(this).css('brightness', '30%');    // make it darker
+
+    },
+    function(e) {    // out
+        $(img).css('brightness', '100%');             // make it clear again
+    }
+)

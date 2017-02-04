@@ -162,8 +162,17 @@ body {
     padding-bottom: 100px;
 }
 
+.halfpads {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
 .paddown {
     padding-bottom: 100px;
+}
+
+.padup {
+    padding-top: 100px;
 }
 
 
@@ -172,8 +181,6 @@ body {
     background-color: $gray-darker;
     font-family: 'Quattrocento Sans', sans-serif;
     padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 32px;
     position: fixed;
     width: 100%;
@@ -182,4 +189,8 @@ body {
 #mainnav {
     background-color: $gray-darker;
     z-index: 1000;
+}
+
+.pointer {
+    cursor: pointer;
 }

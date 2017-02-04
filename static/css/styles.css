@@ -16,6 +16,17 @@ Tanveer Art Main Stylesheet
 }
 
 /* line 11, sass/_contact.scss */
+.contactvia {
+  color: #FAFAFA;
+  background-color: #212121;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 21, sass/_contact.scss */
 .contact hover {
   color: navy blue;
 }
@@ -30,7 +41,7 @@ Tanveer Art Main Stylesheet
 }
 /* line 8, sass/_theart.scss */
 .theart:hover {
-  color: navy blue;
+  color: #212121;
 }
 
 /* line 14, sass/_theart.scss */
@@ -46,7 +57,7 @@ Tanveer Art Main Stylesheet
   opacity: 0;
   -webkit-transform: translate3d(0, 5%, 0);
   transform: translate3d(0, 5%, 0);
-  z-index: 998;
+  z-index: 10;
 }
 /* line 28, sass/_theart.scss */
 .effect-sadie figcaption::before,
@@ -13035,16 +13046,15 @@ body {
 
 /* line 36, sass/_social-media.scss */
 .sociallist {
-  align-items: center;
+  text-align: center;
 }
-/* line 37, sass/_social-media.scss */
-.sociallist li {
+
+/* line 39, sass/_social-media.scss */
+li {
+  text-align: center;
   display: inline;
-  align-items: center;
-}
-/* line 42, sass/_social-media.scss */
-.sociallist ul {
-  align-items: center;
+  list-style-type: none;
+  padding: 20px 20px 20px 20px !important;
 }
 
 /* line 1, sass/_theartist.scss */
@@ -13207,25 +13217,39 @@ body {
 }
 
 /* line 165, sass/styles.scss */
+.halfpads {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+/* line 170, sass/styles.scss */
 .paddown {
   padding-bottom: 100px;
 }
 
-/* line 170, sass/styles.scss */
+/* line 174, sass/styles.scss */
+.padup {
+  padding-top: 100px;
+}
+
+/* line 179, sass/styles.scss */
 .pillbar {
   color: #FAFAFA;
   background-color: #212121;
   font-family: 'Quattrocento Sans', sans-serif;
   padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 32px;
   position: fixed;
   width: 100%;
 }
 
-/* line 182, sass/styles.scss */
+/* line 189, sass/styles.scss */
 #mainnav {
   background-color: #212121;
   z-index: 1000;
+}
+
+/* line 194, sass/styles.scss */
+.pointer {
+  cursor: pointer;
 }

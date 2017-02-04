@@ -34,13 +34,11 @@ body {
 }
 
 .sociallist {
-    li {
-        display: inline;
-        align-items: center;
-    }
-
-    ul {
-        align-items: center;
-    }
-    align-items: center;
+    text-align: center;
 }
+    li {
+        text-align: center;
+        display: inline;
+        list-style-type: none;
+        padding: 20px 20px 20px 20px !important;
+    }
