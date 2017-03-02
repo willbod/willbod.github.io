@@ -37,7 +37,11 @@ a {
     background: transparent;
     text-decoration: none;
     color: white;
+    nav.fade-in.delay-1.pointer {
+            border-radius: 6px;
+    }
 }
+
 *, *:after, *::before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
