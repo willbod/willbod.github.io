@@ -37,20 +37,21 @@ Tanveer Art Main Stylesheet
   background-color: #212121;
   font-family: 'Quattrocento Sans', sans-serif !important;
   font-size: 18px;
+  text-align: center;
 }
-/* line 7, sass/_theart.scss */
+/* line 8, sass/_theart.scss */
 .theart:hover {
   color: #212121;
 }
 
-/* line 46, sass/_theart.scss */
+/* line 47, sass/_theart.scss */
 .effect-sadie .sadie-overlay,
 .effect-sadie p {
   -webkit-transition: opacity 1s, -webkit-transform 1s;
   transition: opacity 1s, transform 1s;
 }
 
-/* line 65, sass/_theart.scss */
+/* line 66, sass/_theart.scss */
 figcaption {
   color: black;
   position: relative;
@@ -60,20 +61,20 @@ figcaption {
   transform: translateY(-20%);
   text-align: center;
 }
-/* line 73, sass/_theart.scss */
+/* line 74, sass/_theart.scss */
 figcaption p {
   font-size: 24px;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-/* line 82, sass/_theart.scss */
+/* line 83, sass/_theart.scss */
 .img-wrapper {
   width: 100%;
   height: 100%;
   display: block;
   overflow: hidden;
 }
-/* line 88, sass/_theart.scss */
+/* line 89, sass/_theart.scss */
 .img-wrapper .sadie-overlay {
   width: 100%;
   position: relative;
@@ -83,7 +84,7 @@ figcaption p {
   background: -webkit-linear-gradient(top, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.8) 75%);
   background: linear-gradient(to bottom, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.8) 75%);
 }
-/* line 98, sass/_theart.scss */
+/* line 99, sass/_theart.scss */
 .img-wrapper:hover .sadie-overlay {
   opacity: 1;
 }
@@ -13078,8 +13079,8 @@ li {
 
 /* line 15, sass/_theartist.scss */
 p.artist {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* line 20, sass/_theartist.scss */
@@ -13088,12 +13089,12 @@ p.artist {
   width: 100%;
 }
 
-/* line 23, sass/styles.scss */
+/* line 22, sass/styles.scss */
 .main {
   background-color: #212121;
 }
 
-/* line 27, sass/styles.scss */
+/* line 26, sass/styles.scss */
 .imagecarousel {
   align-items: center;
   margin-left: 50px;
@@ -13103,12 +13104,12 @@ p.artist {
   z-index: 997;
 }
 
-/* line 36, sass/styles.scss */
+/* line 35, sass/styles.scss */
 .red {
   background-color: red;
 }
 
-/* line 40, sass/styles.scss */
+/* line 39, sass/styles.scss */
 .mainheader {
   color: #FAFAFA;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -13123,14 +13124,14 @@ p.artist {
   background-color: #212121 !important;
 }
 
-/* line 55, sass/styles.scss */
+/* line 54, sass/styles.scss */
 .delay-1 {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   animation-delay: 2.5s;
 }
 
-/* line 61, sass/styles.scss */
+/* line 60, sass/styles.scss */
 .fade-in {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
@@ -13144,7 +13145,7 @@ p.artist {
   animation-duration: 2s;
 }
 
-/* line 74, sass/styles.scss */
+/* line 73, sass/styles.scss */
 .navbarcolour {
   color: #FAFAFA;
   background-color: #212121;
@@ -13156,14 +13157,14 @@ p.artist {
   margin: auto;
 }
 
-/* line 85, sass/styles.scss */
+/* line 84, sass/styles.scss */
 .sketches {
   margin: 5px;
   padding: 5px;
   align-items: baseline;
 }
 
-/* line 91, sass/styles.scss */
+/* line 90, sass/styles.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -13171,27 +13172,27 @@ p.artist {
   text-align: center;
 }
 
-/* line 98, sass/styles.scss */
+/* line 97, sass/styles.scss */
 .navbar-nav {
   text-align: center;
   float: none;
 }
-/* line 102, sass/styles.scss */
+/* line 101, sass/styles.scss */
 .navbar-nav li {
   display: inline-block;
   float: none;
 }
-/* line 106, sass/styles.scss */
+/* line 105, sass/styles.scss */
 .navbar-nav li ul {
   cursor: pointer !important;
 }
 
-/* line 112, sass/styles.scss */
+/* line 111, sass/styles.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 116, sass/styles.scss */
+/* line 115, sass/styles.scss */
 .overlay:hover {
   width: 100%;
   height: 100%;
@@ -13203,52 +13204,52 @@ p.artist {
   transition: ease-in-out 0.4s;
 }
 
-/* line 127, sass/styles.scss */
+/* line 126, sass/styles.scss */
 .overlaysmall {
   margin-top: -128%;
 }
 
-/* line 132, sass/styles.scss */
+/* line 131, sass/styles.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 138, sass/styles.scss */
+/* line 137, sass/styles.scss */
 body {
   background: #212121;
 }
 
-/* line 142, sass/styles.scss */
+/* line 141, sass/styles.scss */
 .wrapper {
   padding: 120px 0 0;
   text-align: center;
 }
 
-/* line 161, sass/styles.scss */
+/* line 160, sass/styles.scss */
 .pads {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 166, sass/styles.scss */
+/* line 165, sass/styles.scss */
 .halfpads {
   padding-top: 70px;
   padding-bottom: 50px;
 }
 
-/* line 171, sass/styles.scss */
+/* line 170, sass/styles.scss */
 .paddown {
   padding-bottom: 100px;
 }
 
-/* line 175, sass/styles.scss */
+/* line 174, sass/styles.scss */
 .padup {
   padding-top: 100px;
 }
 
-/* line 180, sass/styles.scss */
+/* line 179, sass/styles.scss */
 .pillbar {
   color: #FAFAFA;
   background-color: #212121;
@@ -13259,13 +13260,13 @@ body {
   width: 100%;
 }
 
-/* line 190, sass/styles.scss */
+/* line 189, sass/styles.scss */
 #mainnav {
   background-color: #212121;
   z-index: 1000;
 }
 
-/* line 195, sass/styles.scss */
+/* line 194, sass/styles.scss */
 .pointer {
   cursor: pointer;
 }
